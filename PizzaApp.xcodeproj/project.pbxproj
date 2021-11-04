@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8945DE9927341BBC000A5328 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 8945DE9827341BBC000A5328 /* Fonts */; };
 		89C9734C2732B93900A9CF93 /* PizzaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9734B2732B93900A9CF93 /* PizzaAppApp.swift */; };
 		89C9734E2732B93900A9CF93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C9734D2732B93900A9CF93 /* ContentView.swift */; };
 		89C973502732B93A00A9CF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C9734F2732B93A00A9CF93 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893D896F27341D00001E1D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8945DE9827341BBC000A5328 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		89C973482732B93900A9CF93 /* PizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C9734B2732B93900A9CF93 /* PizzaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAppApp.swift; sourceTree = "<group>"; };
 		89C9734D2732B93900A9CF93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,9 +54,11 @@
 		89C9734A2732B93900A9CF93 /* PizzaApp */ = {
 			isa = PBXGroup;
 			children = (
+				893D896F27341D00001E1D15 /* Info.plist */,
 				89C9734B2732B93900A9CF93 /* PizzaAppApp.swift */,
 				89C9734D2732B93900A9CF93 /* ContentView.swift */,
 				89C9734F2732B93A00A9CF93 /* Assets.xcassets */,
+				8945DE9827341BBC000A5328 /* Fonts */,
 				89C973512732B93A00A9CF93 /* Preview Content */,
 			);
 			path = PizzaApp;
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8945DE9927341BBC000A5328 /* Fonts in Resources */,
 				89C973532732B93A00A9CF93 /* Preview Assets.xcassets in Resources */,
 				89C973502732B93A00A9CF93 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +278,8 @@
 				DEVELOPMENT_TEAM = 5AVVN68FZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PizzaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Charlie.io;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +309,8 @@
 				DEVELOPMENT_TEAM = 5AVVN68FZ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PizzaApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Charlie.io;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
