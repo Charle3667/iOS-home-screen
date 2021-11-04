@@ -13,6 +13,7 @@ struct ContentView: View {
             
             LinearGradient(colors: [Color("Color"), Color("Appgreen")], startPoint: .bottom, endPoint: .topLeading)
                 .edgesIgnoringSafeArea(.all)
+            
         VStack {
                         
             Image("Image1")
@@ -24,19 +25,20 @@ struct ContentView: View {
                  .padding(.all)
                             
                             
-                        Text("Charlie Fordon")
-                            .font(.largeTitle)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.black)
-                            .multilineTextAlignment(.leading)
-                            .padding(.trailing, 140.0)
+            Text("Charlie Fordon")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(Color.black)
+                .multilineTextAlignment(.leading)
+                .padding(.trailing, 140.0)
                             
                             
-                        Text("iOS Developer                                               ")
-                            .font(.title2)
-                            .fontWeight(.medium)
-                            .foregroundColor(Color.black)
-                            .multilineTextAlignment(.leading)
+            Text("iOS Developer")
+                .font(.title2)
+                .fontWeight(.medium)
+                .foregroundColor(Color.black)
+                .multilineTextAlignment(.leading)
+                .padding(/*@START_MENU_TOKEN@*/.trailing, 230.0/*@END_MENU_TOKEN@*/)
                             
             Text("Student at the Apple Developer Academy in Detroit, Michigan.")
                 .font(.body)
@@ -44,16 +46,18 @@ struct ContentView: View {
                 .multilineTextAlignment(.leading)
                 .padding(.trailing, 35.0)
                 .padding(.top, 1.0)
+            Link(destination: URL(string: "http://linkedin.com/in/charlesfordon96")!) {
+                Text("Check out my website!")
+                    .frame(width: 200.0, height: 50.0)
+            }
+            
+            
                 
-                
-                            
-                            
-                    }
-                        
-        }
-        }
+            
+            }
+                 }
     }
-
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
